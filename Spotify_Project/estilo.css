@@ -1,0 +1,309 @@
+/*
+
+@authur Hélio Victor
+@version 0.1
+			
+*/
+
+/*
+------------------ layout --------------------------
+*/
+html ,body, .capa {
+	height: 100%;
+}
+body {
+	
+	background: url("imagens/capa.png"),
+				url("imagens/ruido.png"),
+				linear-gradient(50deg,#ff4169, #1c26f8);
+	background-attachment: fixed;  
+	font-family: sans-serif,Helvetica,Arial;
+	overflow-x: hidden;
+}
+#body-logar{
+	background: #FAFAFA;
+}
+a{
+	
+}
+
+
+/*
+------------------ Barra de Navegação --------------------------
+*/
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/spotify.svg') no-repeat;
+
+	background-size: contain;
+	color: transparent;
+}
+
+.alinhamento-logo-logar{
+	padding-bottom: 5px;
+	text-align: center;
+
+}
+.alinhamento-formulario{
+	padding-bottom: 5px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 400px;
+
+}
+
+.alinhamento-texto{
+	text-align: center;
+}
+
+
+.logo-logar{
+	width: 260px;
+	padding-left: 20px;
+	padding-right: 50px;
+	color: black;
+}
+
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0 , 0, 0, 0.6);
+	border: none;
+}
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+	color: #9bf0e1;
+	background: none;
+
+}
+
+/*
+------------------ Imagem de capa --------------------------
+*/
+.capa{
+	display: table;
+	width: 100%;
+}
+
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.texto-logar{
+	font-size: 18px;
+	text-align: center;
+	color: black;
+	letter-spacing: -0.5px;	
+}
+.texto-logar-senha{
+	font-size: 13px;
+	text-align: center;
+	color: rgb(26, 172, 70);
+	letter-spacing: -0.5px;	
+}
+.texto-logar-senha :hover{
+	font-size: 13px;
+	text-align: center;
+	color: rgb(7, 121, 41);
+	letter-spacing: -0.5px;	
+	
+}
+
+.textoFacebook {
+	font-size: 16px;
+}
+
+.dimensao{
+	padding-top: 120px;
+	padding-bottom: 100px;
+
+}
+
+/*
+------------------ FORMULARIO --------------------------
+*/
+	
+
+
+
+/*
+------------------ Botoes --------------------------
+*/
+
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	margin: 0px 15px;
+	transition: background 0.4s, color 0.4s;
+}
+
+.btn-custom-logar{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 5px 100px;
+	text-transform: uppercase;
+	margin: 0px 15px;
+	transition: background 0.4s, color 0.4s;
+
+}
+
+.btnLogarVerde{
+	float: right;
+	padding: 10px 30px;
+	transition: background 0.4s, color 0.4s;
+	border-radius: 500px;
+	
+}
+
+.btn-roxo{
+	background: #7c25f8;
+}
+
+
+.btn-roxo:hover{
+	background-color: #045FB4;
+	color:white;
+}
+.btn-face{
+	background: #084B8A;
+}
+
+.btn-face:hover{
+	background-color: #0174DF;
+	color: white;
+}
+
+.btn-verde{
+	background: #04B431;
+}
+
+.btn-verde:hover{
+	background-color: #0B610B;
+	color: white;
+}
+.btn-branco{
+	border:2px solid white;
+}
+
+.btn-branco-logar{
+	border:2px solid  rgb(100, 100, 100);
+	color: black;
+}
+.btn-branco-logar:hover{
+	background-color: rgb(100, 100, 100);
+	color: white;
+}
+/*
+------------------ Ceção Serviço --------------------------
+*/
+#servico{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;                                         
+}
+
+
+
+.albuns {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+/*
+------------------ Ceção Recursos --------------------------
+*/
+#recursos{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+.rotacionar{
+	transform: rotate(30deg);
+	-webkit-transform:(30deg);
+	transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+/*
+------------------ Rodape --------------------------
+*/
+
+#rodape{
+	background: #1C1C1C;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.item-rede-social{
+	float: right;
+}
+
+/*
+------------------ Tipografia --------------------------
+*/
+h1 {
+	font-size: 100px;
+	font-weight: 900px;
+	letter-spacing: -4px;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -2px;
+}
+
+h3 {
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -2px;
+	margin-bottom: 15px;
+}
+
+#rodape h4{
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#servico h2,#servico h3{
+	color: #7c25f8;
+}
+
+#recursos h3{
+	color: #9bf0e1;
+}
+
+#texto-logar{
+	font-size: 10px;
+	color: white;
+}
+.texto-principal{
+	color: white;
+}
